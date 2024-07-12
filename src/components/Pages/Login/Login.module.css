@@ -1,0 +1,109 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+        display: block;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 450px; 
+}
+
+.container form {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    width: 400px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    border-bottom: 1px solid rgb(8, 196, 71);
+}
+
+.container label {
+    display: flex;
+    margin-bottom: 5px;
+    padding: 5px 5px;
+    font-size: 20px;
+}
+
+.container input {
+    width: 96%;
+    padding: 10px 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+span {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    color: dimgrey;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-weight: bold;
+    border-bottom: 1px solid  rgb(8, 196, 71);
+    color: dimgray;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.container .btnent {
+    background-color:  rgb(8, 196, 71);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 5px;
+    
+}
+
+
+button {
+    width: 100%;
+}
+
+
+.container .btnent:hover {
+    background-color: green;
+}
+
+
+.container .btn {
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
